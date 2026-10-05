@@ -1,3 +1,13 @@
 .env
 .fleet/
 .fleet-deploy.log
+*.log
+
+# --- CMake ---
+build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+
+# the job's results
+out/
